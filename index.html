@@ -1,0 +1,321 @@
+<html>
+  <head>
+    <style>
+.table-head {
+  font-weight: bold;
+}
+table {
+  border:1px solid black;
+  margin: auto;
+  background-color: #ffffff;
+}
+td {
+  text-align:center;
+  width: 125px;
+  border: 1px solid black;
+}
+.char-name {
+  width: 200px;
+  font-size: 26px;
+  font-family: sans-serif;
+}
+.level {
+  font-family:sans-serif;
+  font-size: 15px;
+}
+body {
+  background-color: #dadada;
+}
+#ike {
+  font-family:cursive;
+  font-size:30px;
+}
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr class="table-head">
+        <td>Character</td>
+        <td>Base Stats</td>
+        <td>Growth Rates</td>
+        <td>Max Stats</td>
+      </tr>
+      <tr>
+        <td id="ike" >Ike<br/><span class="level">Level 1</span></td>
+        <td>HP - 19<br/>Str - 5<br/>Mag - 1<br/>Skl - 6<br/>Spd - 7<br/>Lck - 6<br/>Def - 5<br/>Res - 0</td>
+        <td>HP - 75%<br/>Str - 50%<br/>Mag - 20%<br/>Skl - 50%<br/>Spd - 55%<br/>Lck - 35%<br/>Def - 40%<br/>Res - 40%</td>
+        <td>HP - 60<br/>Str - 26<br/>Mag - 20<br/>Skl - 27<br/>Spd - 28<br/>Lck - 40<br/>Def - 24<br/>Res - 22</td>
+      </tr>
+      <tr>
+        <td class="char-name">Astrid<br/><span class="level">Level 1</span></td>
+        <td>HP - 20<br/>Str - 6<br/>Mag - 2<br/>Skl - 6<br/>Spd - 7<br/>Luck - 3<br/>Def - 5<br/>Res - 4</td>
+        <td>HP - 45%<br/>Str - 40%<br/>Mag - 20%<br/>Skl - 55%<br/>Spd - 50%<br/>Luck - 40%<br/>Def - 30%<br/>Res - 25%</td>
+        <td>HP - 60<br/>Str - 25<br/>Mag - 20<br/>Skl - 26<br/>Spd - 27<br/>Luck - 40<br/>Def - 27<br/>Res - 26</td>
+      </tr>
+      <tr>
+        <td class="char-name">Bastian<br/><span class="level">Level 13*</span></td>
+        <td>HP - 35<br/>Str - 12<br/>Mag - 19<br/>Skl - 21<br/>Spd - 16<br/>Lck - 15<br/>Def - 12<br/>Res - 20</td>
+        <td>HP - 55%<br/>Str - 40%<br/>Mag - 65%<br/>Skl - 65%<br/>Spd - 55%<br/>Lck - 30%<br/>Def - 35%<br/>Res - 50%</td>
+        <td>HP - 60<br/>Str - 15<br/>Mag - 30<br/>Skl - 28<br/>Spd - 28<br/>Luck - 40<br/>Def - 20<br/>Res - 28</td>
+      </tr>
+      <tr>
+        <td class="char-name">Boyd<br/><span class="level">Level 2</span></td>
+        <td>HP - 19<br/>Str - 5<br/>Mag - 1<br/>Skl - 6<br/>Spd - 7<br/>Lck - 6<br/>Def - 5<br/>Res - 0</td>
+        <td>HP - 75%<br/>Str - 50%<br/>Mag - 20%<br/>Skl - 50%<br/>Spd - 55%<br/>Lck - 35%<br/>Def - 40%<br/>Res - 40%</td>
+        <td>HP - 60<br/>Str - 30<br/>Mag - 20<br/>Skl - 28<br/>Spd - 27<br/>Luck - 40<br/>Def - 25<br/>Res - 20</td>
+      </tr>
+      <tr>
+        <td class="char-name">Brom<br/><span class="level">Level 8</span></td>
+        <td>HP - 28<br/>Str - 10<br/>Mag - 1<br/>Skl - 9<br/>Spd - 7<br/>Lck - 4<br/>Def - 13<br/>Res - 2</td>
+        <td>HP - 75%<br/>Str - 45%<br/>Mag - 10%<br/>Skl - 50%<br/>Spd - 25%<br/>Luck - 20%<br/>Def - 55%<br/>Res - 25%</td>
+        <td>HP - 60<br/>Str - 29<br/>Mag - 20<br/>Skl - 27<br/>Spd - 24<br/>Luck - 40<br/>Def - 30<br/>Res 25</td>
+      </tr>
+      <tr>
+        <td class="char-name">Calill<br/><span class="level">Level 6*</span></td>
+        <td>HP - 32<br/>Str - 8<br/>Mag - 19<br/>Skl - 18<br/>Spd - 18<br/>Luck - 16<br/>Def - 8<br/>Res - 17</td>
+        <td>HP - 50%<br/>Str - 25%<br/>Mag - 45%<br/>Skl - 45%<br/>Spd - 45%<br/>Luck - 30%<br/>Def - 40%<br/>Res - 35%</td>
+        <td>HP - 60<br/>Str - 15<br/>Mag - 30<br/>Skl - 28<br/>Spd - 28<br/>Luck - 40<br/>Def - 20<br/>Res - 28</td>
+      </tr>
+      <tr>
+        <td class="char-name">Devdan<br/><span class="level">Level 4*</span></td>
+        <td>HP - 36<br/>Str - 14<br/>Mag - 7<br/>Skl - 15<br/>Spd - 13<br/>Luck - 16<br/>Def - 11<br/>Res - 10</td>
+        <td>HP - 75%<br/>Str - 60%<br/>Mag - 30%<br/>Skl - 40%<br/>Spd - 35%<br/>Luck - 40%<br/>Def - 45%<br/>Res - 25%</td>
+        <td>HP - 60<br/>Str - 25<br/>Mag - 20<br/>Skl - 28<br/>Spd - 26<br/>Luck - 40<br/>Def - 28<br/>Res - 25</td>
+      </tr>
+      <tr>
+        <td class="char-name">Elincia<br/><span class="level">Level 1*</span></td>
+        <td>HP - 27<br/>Str - 9<br/>Mag - 12<br/>Skl - 16<br/>Spd - 18<br/>Luck - 15<br/>Def - 11<br/>Res - 15</td>
+        <td>HP - 60%<br/>Str - 30%<br/>Mag - 80%<br/>Skl - 45%<br/>Spd - 40%<br/>Luck - 60%<br/>Def - 25%<br/>Res - 35%</td>
+        <td>HP - 60<br/>Str - 20<br/>Mag - 25<br/>Skl - 26<br/>Spd - 27<br/>Luck - 40<br/>Def - 27<br/>Res - 25</td>
+      </tr>
+      <tr>
+        <td class="char-name">Ena<br/><span class="level">Level 10</span></td>
+        <td>HP - 52<br/>Str - 20<br/>Mag - 9<br/>Skl - 17<br/>Spd - 15<br/>Lck - 14<br/>Def - 23<br/>Res - 21</td>
+        <td>HP - 130%<br/>Str - 35%<br/>Mag - 5%<br/>Skl - 50%<br/>Spd - 60%<br/>Lck - 40%<br/>Def - 40%<br/>Res - 30%</td>
+        <td>HP - 75<br/>Str - 35<br/>Mag - 20<br/>Skl - 31<br/>Spd - 31<br/>Lck - 40<br/>Def - 36<br/>Res - 30</td>
+      </tr>
+      <tr>
+        <td class="char-name">Gatrie<br/><span class="level">Level 9</span></td>
+        <td>HP - 31<br/>Str - 12<br/>Mag - 0<br/>Skl - 6<br/>Spd - 5<br/>Luck - 5<br/>Def - 14<br/>Res - 0</td>
+        <td>HP - 80%<br/>Str - 55%<br/>Mag - 5%<br/>Skl - 55%<br/>Spd - 25%<br/>Luck - 25%<br/>Def - 60%<br/>Res - 30%</td>
+        <td>HP - 60<br/>Str - 29<br/>Mag - 20<br/>Skl - 27<br/>Spd - 24<br/>Luck - 40<br/>Def - 30<br/>Res 25</td>
+      </tr>
+      <tr>
+        <td class="char-name">Geoffrey<br/><span class="level">Level 11*</span></td>
+        <td>HP - 43<br/>Str - 18<br/>Mag - 9<br/>Skl - 17<br/>Spd - 19<br/>Luck - 12<br/>Def - 21<br/>Res - 9</td>
+        <td>HP - 65%<br/>Str - 50%<br/>Mag - 25%<br/>Skl - 55%<br/>Spd - 55%<br/>Luck - 20%<br/>Def - 45%<br/>Res - 45%</td>
+        <td>HP - 60<br/>Str - 26<br/>Mag - 20<br/>Skl - 26<br/>Spd - 27<br/>Luck - 40<br/>Def - 27<br/>Res - 25</td>
+      </tr>
+      <tr>
+        <td class="char-name">Giffca<br/><span class="level">Level 20</span></td>
+        <td>HP - 68<br/>Str - 32<br/>Mag - 10<br/>Skl - 28<br/>Spd - 25<br/>Lck - 22<br/>Def - 25<br/>Res - 16</td>
+        <td>HP - 160%<br/>Str - 75%<br/>Mag - 5%<br/>Skl - 70%<br/>Spd - 60%<br/>Lck - 40%<br/>Def - 50%<br/>Res - 30%</td>
+        <td>HP - 80<br/>Str - 32<br/>Mag - 20<br/>Skl - 35<br/>Spd - 33<br/>Lck - 40<br/>Def - 35<br/>Res - 37</td>
+      </tr>
+      <tr>
+        <td class="char-name">Haar<br/><span class="level">Level 11*</span></td>
+        <td>HP - 47<br/>Str - 21<br/>Mag - 8<br/>Skl - 19<br/>Spd - 17<br/>Luck - 12<br/>Def - 20<br/>Res - 10</td>
+        <td>HP - 65%<br/>Str - 60%<br/>Mag - 5%<br/>Skl - 60%<br/>Spd - 35%<br/>Luck - 20%<br/>Def - 45%<br/>Res - 15%</td>
+        <td>HP - 60<br/>Str - 29<br/>Mag - 20<br/>Skl - 28<br/>Spd-  26<br/>Luck - 40<br/>Def - 29<br/>Res - 22</td>
+      </tr>
+      <tr>
+        <td class="char-name">Ilyana<br/><span class="level">Level 6</span></td>
+        <td>HP - 20<br/>Str - 1<br/>Mag - 8<br/>Skl - 10<br/>Spd - 9<br/>Luck - 6<br/>Def - 3<br/>Res - 10</td>
+        <td>HP - 45%<br/>Str - 25%<br/>Mag - 50%<br/>Skl - 45%<br/>Spd - 30%<br/>Luck - 45%<br/>Def - 15%<br/>Res - 50%</td>
+        <td>HP - 60<br/>Str - 15<br/>Mag - 30<br/>Skl - 28<br/>Spd - 28<br/>Luck - 40<br/>Def - 20<br/>Res - 28</td>
+      </tr>
+      <tr>
+        <td class="char-name">Janaff<br/><span class="level">Level 8</span></td>
+        <td>HP - 39<br/>Str - 13<br/>Mag - 5<br/>Skl - 15<br/>Spd - 17<br/>Lck - 16<br/>Def - 11<br/>Res - 10</td>
+        <td>HP - 130%<br/>Str - 55%<br/>Mag - 10%<br/>Skl - 70%<br/>Spd - 65%<br/>Lck - 40%<br/>Def - 30%<br/>Res - 25%</td>
+        <td>HP - 65<br/>Str - 26<br/>Mag - 20<br/>Skl - 35<br/>Spd - 36<br/>Lck - 40<br/>Def - 26<br/>Res - 26</td>
+      </tr>
+      <tr>
+        <td class="char-name">Jill<br/><span class="level">Level 8</span></td>
+        <td>HP - 24<br/>Str - 11<br/>Mag - 0<br/>Skl - 10<br/>Spd - 9<br/>Luck - 6<br/>Def - 11<br/>Res - 2</td>
+        <td>HP - 60%<br/>Str - 40%<br/>Mag - 30%<br/>Skl - 45%<br/>Spd - 45%<br/>Luck - 25%<br/>Def - 35%<br/>Res - 30%</td>
+        <td>HP - 60<br/>Str - 27<br/>Mag - 20<br/>Skl - 26<br/>Spd - 27<br/>Luck - 40<br/>Def - 27<br/>Res - 25</td>
+      </tr>
+      <tr>
+        <td class="char-name">Kieran<br/><span class="level">Level 12</span></td>
+        <td>HP - 30<br/>Str - 11<br/>Mag - 1<br/>Skl - 10<br/>Spd - 12<br/>Luck - 8<br/>Def - 10<br/>Res - 1</td>
+        <td>HP - 60%<br/>Str - 50%<br/>Mag - 15%<br/>Skl - 50%<br/>Spd - 40%<br/>Luck - 25%<br/>Def - 40%<br/>Res - 30%</td>
+        <td>HP - 60<br/>Str - 26<br/>Mag - 20<br/>Skl - 26<br/>Spd - 27<br/>Luck - 40<br/>Def - 27<br/>Res - 25</td>
+      </tr>
+      <tr>
+        <td class="char-name">Largo<br/><span class="level">Level 7*</span></td>
+        <td>HP - 52<br/>Str - 21<br/>Mag - 4<br/>Skl - 21<br/>Spd - 20<br/>Luck - 12<br/>Def - 10<br/>Res 3</td>
+        <td>HP - 80%<br/>Str - 70%<br/>Mag - 5%<br/>Skl - 45%<br/>Spd - 45%<br/>Luck - 30%<br/>Def - 25%<br/>Res - 20%</td>
+        <td>HP - 60<br/>Str - 30<br/>Mag - 20<br/>Skl - 24<br/>Spd - 28<br/>Luck - 40<br/>Def - 26<br/>Res - 20</td>
+      </tr>
+      <tr>
+        <td class="char-name">Lethe<br/><span class="level">Level 3</span></td>
+        <td>HP - 34<br/>Str - 12<br/>Mag - 4<br/>Skl - 10<br/>Spd - 12<br/>Lck - 15<br/>Def - 9<br/>Res - 7</td>
+        <td>HP - 130%<br/>Str - 50%<br/>Mag - 5%<br/>Skl - 65%<br/>Spd - 70%<br/>Lck - 50%<br/>Def - 40%<br/>Res - 25%</td>
+        <td>HP - 70<br/>Str - 26<br/>Mag - 20<br/>Skl - 34<br/>Spd - 36<br/>Lck - 40<br/>Def - 27<br/>Res - 27</td>
+      </tr>
+      <tr>
+        <td class="char-name">Lucia<br/><span class="level">Level 12*</span></td>
+        <td>HP - 36<br/>Str - 15<br/>Mag - 12<br/>Skl - 21<br/>Spd - 23<br/>Luck - 16<br/>Def - 10<br/>Res - 8</td>
+        <td>HP - 70%<br/>Str - 50%<br/>Mag - 30%<br/>Skl - 70%<br/>Spd - 65%<br/>Luck - 50%<br/>Def - 40%<br/>Res - 40%</td>
+        <td>HP - 60<br/>Str - 22<br/>Mag - 20<br/>Skl - 29<br/>Spd - 30<br/>Luck - 40<br/>Def - 22<br/>Res - 25</td>
+      </tr>
+      <tr>
+        <td class="char-name">Makalov<br/><span class="level">Level 10</span></td>
+        <td>HP - 30<br/>Str - 9<br/>Mag - 2<br/>Skl - 7<br/>Spd - 10<br/>Lck - 8<br/>Def - 10<br/>Res - 2</td>
+        <td>HP - 60%<br/>Str - 55%<br/>Mag - 5%<br/>Skl - 45%<br/>Spd - 50%<br/>Lck - 25%<br/>Def - 45%<br/>Res - 20%</td>
+        <td>HP - 60<br/>Str - 26<br/>Mag - 20<br/>Skl - 26<br/>Spd - 27<br/>Luck - 40<br/>Def - 27<br/>Res - 25</td>
+      </tr>
+      <tr>
+        <td class="char-name">Marcia<br/><span class="level">Level 5</span></td>
+        <td>HP - 20<br/>Str - 8<br/>Mag - 0<br/>Skl - 7<br/>Spd - 11<br/>Luck - 4<br/>Def - 8<br/>Res - 6</td>
+        <td>HP - 55%<br/>Str - 40%<br/>Mag - 20%<br/>Skl - 50%<br/>Spd - 55%<br/>Luck - 40%<br/>Def - 25%<br/>Res - 30%</td>
+        <td>HP - 60<br/>Str - 23<br/>Mag - 20<br/>Skl - 26<br/>Spd - 28<br/>Luck - 40<br/>Def - 24<br/>Res - 27</td>
+      </tr>
+      <tr>
+        <td class="char-name">Mia<br/><span class="level">Level 6</span></td>
+        <td>HP - 21<br/>Str - 7<br/>Mag - 0<br/>Skl - 10<br/>Spd - 13<br/>Luck - 6<br/>Def - 7<br/>Res - 2</td>
+        <td>HP - 50%<br/>Str - 40%<br/>Mag - 30<br/>Skl - 45%<br/>Spd - 60%<br/>Luck - 45%<br/>Def - 20%<br/>Res - 25%</td>
+        <td>HP - 60<br/>Str - 22<br/>Mag - 20<br/>Skl - 29<br/>Spd - 30<br/>Luck - 40<br/>Def - 22<br/>Res - 25</td>
+      </tr>
+      <tr>
+        <td class="char-name">Mist<br/><span class="level">Level 1</span></td>
+        <td>HP - 16<br/>Str - 1<br/>Mag - 4<br/>Skl - 4<br/>Spd - 7<br/>Lck - 6<br/>Def - 2<br/>Res - 7</td>
+        <td>HP - 50%<br/>Str - 35%<br/>Mag - 50%<br/>Skl - 25%<br/>Spd - 40%<br/>Lck - 60%<br/>Def - 15%<br/>Res - 40%</td>
+        <td>HP - 60<br/>Str - 20<br/>Mag - 26<br/>Skl - 24<br/>Spd - 26<br/>Lck - 40<br/>Def - 20<br/>Res - 29</td>
+      </tr>
+      <tr>
+        <td class="char-name">Mordecai<br/><span class="level">Level 2</span></td>
+        <td>HP - 41<br/>Str - 15<br/>Mag - 2<br/>Skl - 8<br/>Spd - 8<br/>Lck - 10<br/>Def - 13<br/>Res - 4</td>
+        <td>HP - 150%<br/>Str - 65%<br/>Mag - 0%<br/>Skl - 55%<br/>Spd - 50%<br/>Lck - 40%<br/>Def - 40%<br/>Res - 20%</td>
+        <td>HP - 75<br/>Str - 30<br/>Mag - 20<br/>Skl - 33<br/>Spd - 34<br/>Lck - 40<br/>Def - 30<br/>Res - 24</td>
+      </tr>
+      <tr>
+        <td class="char-name">Muarim<br/><span class="level">Level 9</span></td>
+        <td>HP - 45<br/>Str - 16<br/>Mag - 4<br/>Skl - 13<br/>Spd - 15<br/>Lck - 11<br/>Def - 12<br/>Res - 5</td>
+        <td>HP - 145%<br/>Str - 70%<br/>Mag - 5%<br/>Skl - 70%<br/>Spd - 55%<br/>Lck - 35%<br/>Def - 60%<br/>Res - 45%</td>
+        <td>HP - 75<br/>Str - 30<br/>Mag - 20<br/>Skl - 33<br/>Spd - 34<br/>Lck - 40<br/>Def - 30<br/>Res - 24</td>
+      </tr>
+      <tr>
+        <td class="char-name">Naesala<br/><span class="level">Level 17</span></td>
+        <td>HP - 57<br/>Str - 25<br/>Mag - 15<br/>Skl - 26<br/>Spd - 31<br/>Lck - 19<br/>Def - 21<br/>Res - 16</td>
+        <td>HP - 135%<br/>Str - 60%<br/>Mag - 40%<br/>Skl - 70%<br/>Spd - 75%<br/>Lck - 20%<br/>Def - 55%<br/>Res - 35%</td>
+        <td>HP - 70<br/>Str - 29<br/>Mag - 24<br/>Skl - 34<br/>Spd - 37<br/>Lck - 40<br/>Def - 27<br/>Res - 32</td>
+      </tr>
+      <tr>
+        <td class="char-name">Nasir<br/><span class="level">Level 18</span></td>
+        <td>HP - 56<br/>Str - 20<br/>Mag - 11<br/>Skl - 23<br/>Spd - 22<br/>Lck - 17<br/>Def - 24<br/>Res - 27</td>
+        <td>HP - 150%<br/>Str - 50%<br/>Mag - 10%<br/>Skl - 55%<br/>Spd - 45%<br/>Lck - 35%<br/>Def - 60%<br/>Res - 25%</td>
+        <td>HP - 80<br/>Str - 30<br/>Mag - 25<br/>Skl - 30<br/>Spd - 32<br/>Lck - 40<br/>Def - 35<br/>Res - 35</td>
+      </tr>
+      <tr>
+        <td class="char-name">Nephenee<br/><span class="level">Level 7</span></td>
+        <td>HP - 22<br/>Str - 8<br/>Mag - 2<br/>Skl - 10<br/>Spd - 11<br/>Luck - 6<br/>Def - 9<br/>Res - 3</td>
+        <td>HP - 55%<br/>Str - 40%<br/>Mag - 20%<br/>Skl - 55%<br/>Spd - 55%<br/>Luck - 25%<br/>Def - 35%<br/>Res - 25%</td>
+        <td>HP - 60<br/>Str - 25<br/>Mag - 20<br/>Skl - 28<br/>Spd - 26<br/>Luck - 40<br/>Def - 28<br/>Res - 25</td>
+      </tr>
+      <tr>
+        <td class="char-name">Oscar<br/><span class="level">Level 3</span></td>
+        <td>HP - 26<br/>Str - 6<br/>Mag - 1<br/>Skl - 6<br/>Spd - 7<br/>Luck - 5<br/>Def - 8<br/>Res - 0</td>
+        <td>HP - 55%<br/>Str - 45%<br/>Mag - 20%<br/>Skl - 50%<br/>Spd - 45%<br/>Luck - 30%<br/>Def - 35%<br/>Res - 30%</td>
+        <td>HP - 60<br/>Str - 26<br/>Mag - 20<br/>Skl - 26<br/>Spd - 27<br/>Luck - 40<br/>Def - 27<br/>Res - 25</td>
+      </tr>
+      <tr>
+        <td class="char-name">Ranulf<br/><span class="level">Level 9</span></td>
+        <td>HP - 46<br/>Str - 19<br/>Mag - 4<br/>Skl - 17<br/>Spd - 17<br/>Lck - 13<br/>Def - 17<br/>Res - 6</td>
+        <td>HP - 130%<br/>Str - 50%<br/>Mag - 0%<br/>Skl - 55%<br/>Spd - 55%<br/>Lck - 35%<br/>Def - 35%<br/>Res - 20%</td>
+        <td>HP - 70<br/>Str - 29<br/>Mag - 20<br/>Skl - 34<br/>Spd - 35<br/>Lck - 40<br/>Def - 30<br/>Res - 24</td>
+      </tr>
+      <tr>
+        <td class="char-name">Reyson<br/><span class="level">Level 3</span></td>
+        <td>HP - 22<br/>Str - 1<br/>Mag - 10<br/>Skl - 11<br/>Spd - 14<br/>Lck - 15<br/>Def - 2<br/>Res - 20</td>
+        <td>HP - 65%<br/>Str - 5%<br/>Mag - 40%<br/>Skl - 50%<br/>Spd - 50%<br/>Lck - 60%<br/>Def - 15%<br/>Res - 50%</td>
+        <td>HP - 60<br/>Str - 10<br/>Mag - 20<br/>Skl - 17<br/>Spd - 26<br/>Lck - 40<br/>Def - 15<br/>Res - 35</td>
+      </tr>
+      <tr>
+        <td class="char-name">Rhys<br/><span class="level">Level 4</span></td>
+        <td>HP - 22<br/>Str - 0<br/>Mag - 10<br/>Skl - 8<br/>Spd - 5<br/>Lck - 8<br/>Def - 0<br/>Res - 14</td>
+        <td>HP - 40%<br/>Str - 5%<br/>Mag - 60%<br/>Skl - 50%<br/>Spd - 40%<br/>Luck - 50%<br/>Def - 25%<br/>Res - 55%</td>
+        <td>HP - 60<br/>Str - 20<br/>Mag - 29<br/>Skl - 22<br/>Spd - 25<br/>Luck - 40<br/>Def - 20<br/>Res - 30</td>
+      </tr>
+      <tr>
+        <td class="char-name">Rolf<br/><span class="level">Level 1</span></td>
+        <td>HP - 18<br/>Str - 5<br/>Mag - 0<br/>Skl - 8<br/>Spd - 6<br/>Luck - 4<br/>Def - 6<br/>Res - 2</td>
+        <td>HP - 60%<br/>Str - 40%<br/>Mag - 20%<br/>Skl - 45%<br/>Spd - 50%<br/>Luck - 40%<br/>Def - 30%<br/>Res - 25%</td>
+        <td>HP - 60<br/>Str - 25<br/>Mag - 20<br/>Skl - 30<br/>Spd - 28<br/>Luck - 40<br/>Def - 25<br/>Res - 23</td>
+      </tr>
+      <tr>
+        <td class="char-name">Shinon<br/><span class="level">Level 1*</span></td>
+        <td>HP - 32<br/>Str - 9<br/>Mag - 6<br/>Skl - 15<br/>Spd - 13<br/>Luck - 9<br/>Def - 9<br/>Res - 6</td>
+        <td>HP - 75%<br/>Str - 65%<br/>Mag - 20%<br/>Skl - 70%<br/>Spd - 65%<br/>Luck - 35%<br/>Def - 50%<br/>Res - 40%</td>
+        <td>HP - 60<br/>Str - 25<br/>Mag - 20<br/>Skl - 30<br/>Spd - 28<br/>Luck - 40<br/>Def - 25<br/>Res - 23</td>
+      </tr>
+      <tr>
+        <td class="char-name">Soren<br/><span class="level">Level 1</span></td>
+        <td>HP - 18<br/>Str - 0<br/>Mag - 6<br/>Skl - 8<br/>Spd - 8<br/>Luck - 5<br/>Def - 2<br/>Res - 7</td>
+        <td>HP - 45%<br/>Str - 5%<br/>Mag - 60%<br/>Skl - 55%<br/>Spd - 40%<br/>Luck - 30%<br/>Def - 15%<br/>Res - 55%</td>
+        <td>HP - 60<br/>Str - 15<br/>Mag - 30<br/>Skl - 28<br/>Spd - 28<br/>Luck - 40<br/>Def - 20<br/>Res - 28</td>
+      </tr>
+      <tr>
+        <td class="char-name">Sothe<br/><span class="level">Level 1</span></td>
+        <td>HP - 20<br/>Str - 5<br/>Mag - 1<br/>Skl - 7<br/>Spd - 11<br/>Lck - 5<br/>Def - 4<br/>Res - 0</td>
+        <td>HP - 60%<br/>Str - 55%<br/>Mag - 10%<br/>Skl - 70%<br/>Spd - 65%<br/>Lck - 55%<br/>Def - 35%<br/>Res - 30%</td>
+        <td>HP - 60<br/>Str - 23<br/>Mag - 20<br/>Skl - 30<br/>Spd - 30<br/>Lck - 40<br/>Def - 22<br/>Res - 20</td>
+      </tr>
+      <tr>
+        <td class="char-name">Stefan<br/><span class="level">Level 8*</span></td>
+        <td>HP - 38<br/>Str - 19<br/>Mag - 8<br/>Skl - 27<br/>Spd - 25<br/>Luck - 5<br/>Def - 12<br/>Res - 9</td>
+        <td>HP - 70%<br/>Str - 50%<br/>Mag - 20%<br/>Skl - 40%<br/>Spd - 55%<br/>Luck - 25%<br/>Def - 35%<br/>Res - 30%</td>
+        <td>HP - 60<br/>Str - 24<br/>Mag - 20<br/>Skl - 29<br/>Spd - 30<br/>Luck - 40<br/>Def - 22<br/>Res - 23</td>
+      </tr>
+      <tr>
+        <td class="char-name">Tanith<br/><span class="level">Level 10*</span></td>
+        <td>HP - 32<br/>Str - 16<br/>Mag - 10<br/>Skl - 18<br/>Spd - 24<br/>Luck - 18<br/>Def - 15<br/>Res - 13</td>
+        <td>HP - 60%<br/>Str - 40%<br/>Mag - 35%<br/>Skl - 70%<br/>Spd - 40%<br/>Luck - 30%<br/>Def - 25%<br/>Res - 30%</td>
+        <td>HP - 60<br/>Str - 23<br/>Mag - 20<br/>Skl - 26<br/>Spd - 28<br/>Luck - 40<br/>Def - 24<br/>Res - 27</td>
+      </tr>
+      <tr>
+        <td class="char-name">Tauroneo<br/><span class="level">Level 14*</span></td>
+        <td>HP - 48<br/>Str - 22<br/>Mag - 11<br/>Skl - 18<br/>Spd - 13<br/>Luck - 14<br/>Def - 22<br/>Res - 14</td>
+        <td>HP - 60%<br/>Str - 55%<br/>Mag - 5%<br/>Skl - 50%<br/>Spd - 30%<br/>Luck - 15%<br/>Def - 60%<br/>Res - 40%</td>
+        <td>HP - 60<br/>Str - 29<br/>Mag - 20<br/>Skl - 27<br/>Spd - 24<br/>Luck - 40<br/>Def - 30<br/>Res 25</td>
+      </tr>
+      <tr>
+        <td class="char-name">Tibarn<br/><span class="level">Level 18</span></td>
+        <td>HP - 63<br/>Str - 30<br/>Mag - 11<br/>Skl - 31<br/>Spd - 24<br/>Lck - 24<br/>Def - 26<br/>Res - 19</td>
+        <td>HP - 145%<br/>Str - 70%<br/>Mag - 5%<br/>Skl - 70%<br/>Spd - 65%<br/>Lck - 50%<br/>Def - 60%<br/>Res - 25%</td>
+        <td>HP - 75<br/>Str - 33<br/>Mag - 20<br/>Skl - 35<br/>Spd - 36<br/>Lck - 40<br/>Def - 32<br/>Res - 29</td>
+      </tr>
+      <tr>
+        <td class="char-name">Titania<br/><span class="level">Level 1*</span></td>
+        <td>HP - 33<br/>Str - 12<br/>Mag - 4<br/>Skl - 13<br/>Spd - 14<br/>Luck - 11<br/>Def - 11<br/>Res - 7</td>
+        <td>HP - 80%<br/>Str - 45%<br/>Mag - 25%<br/>Skl - 60%<br/>Spd - 50%<br/>Luck - 45%<br/>Def - 40%<br/>Res - 45%</td>
+        <td>HP - 60<br/>Str - 25<br/>Mag - 20<br/>Skl - 26<br/>Spd - 27<br/>Luck - 40<br/>Def - 27<br/>Res - 26</td>
+      </tr>
+      <tr>
+        <td class="char-name">Tormod<br/><span class="level">Level 7</span></td>
+        <td>HP - 20<br/>Str - 2<br/>Mag - 10<br/>Skl - 9<br/>Spd - 9<br/>Luck - 8<br/>Def - 4<br/>Res - 9</td>
+        <td>HP - 50%<br/>Str - 20%<br/>Mag - 45%<br/>Skl - 40%<br/>Spd - 45%<br/>Luck - 35%<br/>Def - 25%<br/>Res - 45%</td>
+        <td>HP - 60<br/>Str - 15<br/>Mag - 30<br/>Skl - 28<br/>Spd - 28<br/>Luck - 40<br/>Def - 20<br/>Res - 28</td>
+      </tr>
+      <tr>
+        <td class="char-name">Ulki<br/><span class="level">Level 7</span></td>
+        <td>HP - 41<br/>Str - 15<br/>Mag - 4<br/>Skl - 14<br/>Spd - 12<br/>Lck - 10<br/>Def - 14<br/>Res - 9</td>
+        <td>HP - 140%<br/>Str - 60%<br/>Mag - 10%<br/>Skl - 65%<br/>Spd - 60%<br/>Lck - 35%<br/>Def - 35%<br/>Res - 25%</td>
+        <td>HP - 65<br/>Str - 26<br/>Mag - 20<br/>Skl - 35<br/>Spd - 36<br/>Lck - 40<br/>Def - 26<br/>Res - 26</td>
+      </tr>
+      <tr>
+        <td class="char-name">Volke<br/><span class="level">Level 10</span></td>
+        <td>HP - 25<br/>Str - 12<br/>Mag - 0<br/>Skl - 13<br/>Spd - 13<br/>Lck - 7<br/>Def - 7<br/>Res - 3</td>
+        <td>HP - 65%<br/>Str - 50%<br/>Mag - 5%<br/>Skl - 55%<br/>Spd - 65%<br/>Lck - 35%<br/>Def - 20%<br/>Res - 10%</td>
+        <td>HP - 60<br/>Str - 23<br/>Mag - 20<br/>Skl - 30<br/>Spd - 30<br/>Lck - 40<br/>Def - 22<br/>Res - 20</td>
+      </tr>
+      <tr>
+        <td class="char-name">Zihark<br/><span class="level">Level 10</span></td>
+        <td>HP - 25<br/>Str - 10<br/>Mag - 1<br/>Skl - 13<br/>Spd - 15<br/>Luck - 6<br/>Def - 7<br/>Res - 0</td>
+        <td>HP - 55%<br/>Str - 45%<br/>Mag - 25%<br/>Skl - 50%<br/>Spd - 60%<br/>Luck - 40%<br/>Def - 30%<br/>Res - 20%</td>
+        <td>HP - 60<br/>Str - 24<br/>Mag - 20<br/>Skl - 29<br/>Spd - 30<br/>Luck - 40<br/>Def - 22<br/>Res - 23</td>
+      </tr>
+    </table>  
+  </body>
+</html>
